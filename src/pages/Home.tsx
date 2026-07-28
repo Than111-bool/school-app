@@ -30,10 +30,10 @@ const Home: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <button className="bg-[#0d52be] hover:bg-blue-700 text-white text-sm font-medium px-6 py-3 rounded-md transition-colors">
-                Learn More
+                LEARN MORE
               </button>
               <button className="bg-white hover:bg-gray-100 text-[#0d52be] text-sm font-medium px-6 py-3 rounded-md transition-colors">
-                Apply Now
+                APPLY NOW
               </button>
             </div>
           </div>
