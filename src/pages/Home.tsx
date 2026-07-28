@@ -23,7 +23,7 @@ const Home: React.FC = () => {
               WELCOME TO
             </span>
             <h1 className="text-4xl md:text-5xl font-bold mt-3 mb-4 leading-tight">
-              Bright Future School
+              BRIGHT FRUTURE SCHOOL
             </h1>
             <p className="text-sm md:text-base text-gray-100 mb-8 leading-relaxed">
               We provide high quality education and nurture students to become the leaders of tomorrow.
