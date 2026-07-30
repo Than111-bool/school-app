@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             <span className="text-xs font-semibold tracking-wider uppercase bg-white/20 backdrop-blur-sm px-3 py-1 rounded-sm">
               WELCOME TO
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mt-3 mb-4 leading-tight">
+            <h1 className="text-4xl text-amber-300 md:text-5xl font-bold mt-3 mb-4 leading-tight">
               BRIGHT FRUTURE SCHOOL
             </h1>
             <p className="text-sm md:text-base text-gray-100 mb-8 leading-relaxed">
