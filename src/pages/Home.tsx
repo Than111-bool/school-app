@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { 
   ChevronLeft, ChevronRight, Users, GraduationCap, BookOpen, 
   Building2, Calendar, ArrowRight 
@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   return (
     <div className="font-sans text-gray-800 bg-white">
       {/* 1. HERO SECTION */}
-      <section className="relative h-[520px] bg-cover bg-center flex items-center text-white" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1600&auto=format&fit=crop')` }}>
+      <section className="relative height: 520px bg-cover bg-center flex items-center text-white" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1600&auto=format&fit=crop')` }}>
         {/* Navigation Arrows */}
         <button className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2.5 rounded-full shadow-md transition-colors">
           <ChevronLeft className="w-5 h-5" />
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
               We provide high quality education and nurture students to become the leaders of tomorrow.
             </p>
             <div className="flex space-x-4">
-              <button className="bg-[#0d52be] hover:bg-blue-700 text-white text-sm font-medium px-6 py-3 rounded-md transition-colors">
+              <button className="bg-gray-500 hover:bg-blue-500 text-white text-sm font-medium px-6 py-3 rounded-md transition-colors">
                 LEARN MORE
               </button>
               <button className="bg-white hover:bg-gray-100 text-[#0d52be] text-sm font-medium px-6 py-3 rounded-md transition-colors">
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
             <img 
               src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop" 
               alt="Students studying" 
-              className="rounded-2xl shadow-lg w-full object-cover h-[300px]"
+              className="rounded-2xl shadow-lg w-full object-cover height: 300px"
             />
           </div>
         </div>
