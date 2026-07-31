@@ -74,7 +74,7 @@ const Home: React.FC = () => {
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center">
               <Users className="w-10 h-10 text-[#0d52be] mb-4" />
               <h3 className="text-3xl font-bold text-gray-900 mb-1">1200+</h3>
-              <p className="text-xs text-gray-500 font-medium">Students</p>
+              <p className="text-xs text-gray-500 font-medium">STUDENTS</p>
             </div>
 
             
