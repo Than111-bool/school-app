@@ -50,7 +50,7 @@ const Home: React.FC = () => {
               Bright Future School provides a safe and inspiring environment where students can learn, grow and achieve excellence in academic, sports and co-curricular activities.
             </p>
             <button className="bg-[#0d52be] hover:bg-blue-700 text-white text-sm font-medium px-6 py-2.5 rounded-md transition-colors">
-              Read More
+              READ MORE
             </button>
           </div>
           <div>
