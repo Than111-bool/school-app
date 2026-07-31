@@ -44,7 +44,7 @@ const Home: React.FC = () => {
       <section className="py-20 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">About Our School</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">ABOUT OUR SCHOOL</h2>
             <div className="w-12 h-1 bg-[#0d52be] mb-6"></div>
             <p className="text-gray-600 text-sm leading-relaxed mb-6">
               Bright Future School provides a safe and inspiring environment where students can learn, grow and achieve excellence in academic, sports and co-curricular activities.
